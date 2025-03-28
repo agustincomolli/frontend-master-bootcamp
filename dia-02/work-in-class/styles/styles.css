@@ -1,0 +1,85 @@
+/* Mi primer archivo CSS */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #ffc;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: brown;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+blockquote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+}
+
+blockquote p {
+  text-align: inherit;
+}
+
+cite {
+  font-size: 1.1rem;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+  font-weight: 500;
+  color: black;
+}
+
+.img-agustin {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+.img-the-way {
+  width: 600px;
+  border-radius: 12px;
+}
+
+.img-books,
+.img-music {
+  height: 200px;
+}
+
+.img-movies {
+  height: 250px;
+}
