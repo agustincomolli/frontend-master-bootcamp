@@ -1,16 +1,17 @@
 /* Mi primer archivo CSS */
 
-/* Paleta de colores
-#8E2800
-#B64926
-#FFB03B
-#FFF0A5
-#468966
- */
+/* Paleta de colores */
+:root {
+--color-1: #8E2800;
+--color-2: #B64926;
+--color-3: #FFB03B;
+--color-4: #FFF0A5;
+--color-5: #468966;
+  
+}
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #FFF0A5;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1,
@@ -35,10 +36,12 @@ a:hover {
 }
 
 blockquote {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.3rem;
   font-style: italic;
   text-align: center;
+  color: #B64926;
+  background-color: #FFF0A5;
 }
 
 blockquote p {
@@ -47,6 +50,7 @@ blockquote p {
 
 cite {
   font-size: 1.1rem;
+  text-align: left;
 }
 
 figure {
