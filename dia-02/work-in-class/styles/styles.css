@@ -1,8 +1,16 @@
 /* Mi primer archivo CSS */
 
+/* Paleta de colores
+#8E2800
+#B64926
+#FFB03B
+#FFF0A5
+#468966
+ */
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #ffc;
+  background-color: #FFF0A5;
 }
 
 h1,
@@ -10,7 +18,7 @@ h2,
 h3,
 h4 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: brown;
+  color: #8E2800;
 }
 
 p {
@@ -19,7 +27,7 @@ p {
 
 a {
   text-decoration: none;
-  color: brown;
+  color: #468966;
 }
 
 a:hover {
