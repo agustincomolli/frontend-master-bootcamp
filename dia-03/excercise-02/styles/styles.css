@@ -1,0 +1,124 @@
+/* Mi primer archivo CSS */
+
+/* Paleta de colores */
+:root {
+--color-1: #8E2800;
+--color-2: #B64926;
+--color-3: #FFB03B;
+--color-4: #FFF0A5;
+--color-5: #468966;
+  
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #8E2800;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: #468966;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+blockquote {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  color: #B64926;
+  background-color: #FFF0A5;
+  padding: 0.5rem 1rem 1rem 1rem;
+  margin: 0 auto;
+
+  width: 30rem;
+}
+
+blockquote p {
+  text-align: inherit;
+}
+
+blockquote cite {
+  margin-bottom: 1rem;
+}
+
+cite {
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+nav {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  margin: 0 0 0 auto;
+}
+
+nav li {
+  font-size: .8rem;
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+  font-weight: 500;
+  color: black;
+}
+
+.img-agustin {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.img-wrapper {
+  text-align: center;
+}
+
+.img-the-way {
+  width: 600px;
+  border-radius: 12px;
+}
+
+.img-books,
+.img-music {
+  height: 200px;
+}
+
+.img-movies {
+  height: 250px;
+}
