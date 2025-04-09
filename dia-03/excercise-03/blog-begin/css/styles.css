@@ -37,17 +37,27 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 5%;
     border-top: 1px solid #DA0090;
     border-bottom: 1px solid #A51F10;
 }
 
 nav ul li {
-    margin: .5rem 0;
+    margin: 0;
 }
 
 nav ul li a {
     color: black;
+    display: block;
+    text-align: center;
+    padding: .5rem 1rem;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: #89A611;
+    text-decoration: none;
 }
 
 h1,
