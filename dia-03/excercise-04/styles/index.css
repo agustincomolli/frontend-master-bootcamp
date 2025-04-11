@@ -1,0 +1,70 @@
+section {
+  display: flex;
+}
+
+article {
+  flex: 3;
+  padding-right: 3rem;
+}
+
+article p {
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  margin-bottom: 1rem;
+}
+
+aside {
+  flex: 1;
+  background-color: var(--color-4);
+  color: var(--color-1);
+  padding: 1.5rem;
+  border-radius: .5rem;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: .5rem;
+}
+
+aside a {
+  text-decoration: none;
+  color: var(--color-2);
+  font-size: .9rem;
+}
+
+aside a:hover {
+  font-weight: bold;
+  color: var(--color-5);
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1rem .5rem;
+  padding-left: .75rem;
+  border-left: 0.25rem solid var(--color-2);
+
+}
+
+cite {
+  display: block;
+  margin-top: .3rem;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+.profile-photo {
+  display: block;
+  width: 90%;
+  border-radius: .5rem;
+  margin: .5rem auto 1rem;
+}
+
+.social-media-link{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: .5rem;
+}
+
