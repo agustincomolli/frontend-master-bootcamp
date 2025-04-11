@@ -1,70 +1,69 @@
-p {
+.book__paragraph {
   text-align: justify;
   word-break: break-word;
   hyphens: auto;
   margin-bottom: 1rem;
 }
 
-ol {
+.book__list {
   margin-bottom: 1rem;
 }
 
-a {
+.book__link {
   text-decoration: none;
   color: var(--color-2);
   font-size: .9rem;
 }
 
-a:hover {
+.book__link:hover {
   font-weight: bold;
   color: var(--color-5);
 }
 
-
-.group:after {
+.book__paragraph--with-image:after {
   content: "";
   display: table;
   /* clear: both; */
 }
 
-.float-left {
+.book__imga {
+  border-radius: .5rem;
+}
+
+.book__image--left {
   float: left;
   margin: 0 1rem .5rem 0;
 }
 
-.image-center {
+.book__image--center {
   display: block;
   margin: 0 auto 1rem;
 }
 
-.float-right {
+.book__image--right {
   float: right;
   margin: .5rem 0 .5rem .5rem;
 }
 
-.rounded-borders {
-  border-radius: .5rem;
-}
-
-.bloquote {
+.book_quote {
   font-style: italic;
   margin: 1rem .5rem;
   padding-left: .75rem;
   border-left: 0.25rem solid var(--color-2);
 }
 
-.bloquote:first-of-type p:first-of-type {
+.book_quote:first-of-type p:first-of-type {
   margin: 0 0 1rem 0;
 }
 
-.cite {
+.book_cite {
   display: block;
   margin-top: .3rem;
   font-weight: 600;
   font-size: .9rem;
 }
 
-.footer {
+.book__footer {
   background-color: var(--color-4);
   color: black;
   font-size: .75rem;

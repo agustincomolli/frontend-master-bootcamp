@@ -17,7 +17,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header {
+.header {
   background-color: var(--color-1);
   font-weight: 500;
   color: white;
@@ -25,35 +25,35 @@ header {
   box-shadow: 0 3px 10px #B64926;
 }
 
-header nav {
+.header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2%;
 }
 
-header ul {
+.nav__list {
   list-style-type: none;
   display: flex;
   gap: .75rem;
   text-align: center;
 }
 
-header a {
+.nav__link {
   text-decoration: none;
   color: white;
 }
 
-header a:hover {
+.nav__link:hover {
   color: var(--color-4);
 }
 
-main {
+.main {
   width: 80%;
   margin: 2rem auto;
 }
 
-footer {
+.footer {
   background-color: var(--color-2);
   margin-top: 1rem;
   padding: .75rem 0;
@@ -61,7 +61,7 @@ footer {
   color: white;
 }
 
-.brand {
+.header__brand {
   font-size: 1.4rem;
   font-weight: bold;
 }

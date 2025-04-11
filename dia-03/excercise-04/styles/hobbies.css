@@ -1,8 +1,8 @@
-.hobbie-section {
+.hobbie {
   margin-bottom: 2rem;
 }
 
-.hobbie-description {
+.hobbie__description {
   line-height: 1.75;
   margin-bottom: 1rem;
   text-align: justify;
@@ -11,7 +11,7 @@
   margin-bottom: 1rem;
 }
 
-.img-the-way {
+.hobbie__image {
   width: 90%;
   max-width: 600px;
   display: block;
@@ -22,29 +22,29 @@
   margin-bottom: .75rem;
 }
 
-.img-caption {
+.hobbie__caption {
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: .85rem;
 }
 
-.book-grid,
-.album-grid,
-.movie-grid {
+.hobbie__book-grid,
+.hobbie__album-grid,
+.hobbie__movie-grid {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
 
-.book-cover,
-.album-cover,
-.movie-poster {
+.hobbie__book-cover,
+.hobbie__album-cover,
+.hobbie__movie-poster {
   border-radius: .5rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);;
 }
 
-.book-cover {
+.hobbie__book-cover {
   width: 200px;
   aspect-ratio: 2/3;
 }
