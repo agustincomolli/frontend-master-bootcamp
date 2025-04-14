@@ -30,19 +30,30 @@
 					<p>How many people would you like abducted?</p>
 					<input type="number" name="people" id="people" min="1" max="10">
 					<p>What type of UFO do you prefer?</p>
-					<ul>
-						<li>Classic oval UFO</li>
-						<li>Star Wars-style Imperial cruiser</li>
-						<li>Battlestar Galactica-style Viper</li>
-						<li>Borg-style cube</li>
-					</ul>
-					<p>What type of abduction experience do you want?</p>
-					<ul>
-						<li>Tour of the solar system</li>
-						<li>Alien dinner and discussion</li>
-						<li>Alien dance lessons</li>
-						<li>Whale watching</li>
-					</ul>
+					<label>
+						<input type="radio" name="ufo-type" value="classic">
+						Classic oval UFO
+					</label>
+					<label>
+						<input type="radio" name="ufo-type" value="star-wars">
+						Star Wars-style Imperial cruiser
+					</label>
+					<label>
+						<input type="radio" name="ufo-type" value="galactica">
+						Battlestar Galactica-style Viper
+					</label>
+					<label>
+						<input type="radio" name="ufo-type" value="borg">
+						Borg-style cube
+					</label>
+					<label for="abduction-type">What type of abduction experience do you want?</label>
+					<select name="abduction-type" id="abduction-type">
+						<option selected disabled>Select one...</option>
+						<option value="tour">Tour of the solar system</option>
+						<option value="dinner">Alien dinner and discussion</option>
+						<option value="dance">Alien dance lessons</option>
+						<option value="whale-watching">Whale watching</option>
+					</select>
 					<p>Special requests:</p>
 					<p>Add me to your email list</p>
 				</fieldset>
