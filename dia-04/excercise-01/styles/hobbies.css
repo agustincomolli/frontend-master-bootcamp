@@ -1,0 +1,51 @@
+.hobbie {
+  margin-bottom: 2rem;
+}
+
+.hobbie__description {
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  margin-bottom: 1rem;
+}
+
+.hobbie__image {
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: .5rem;
+  /* Sombra suave */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin-bottom: .75rem;
+}
+
+.hobbie__caption {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: .85rem;
+}
+
+.hobbie__book-grid,
+.hobbie__album-grid,
+.hobbie__movie-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hobbie__book-cover,
+.hobbie__album-cover,
+.hobbie__movie-poster {
+  border-radius: .5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);;
+}
+
+.hobbie__book-cover {
+  width: 200px;
+  aspect-ratio: 2/3;
+}

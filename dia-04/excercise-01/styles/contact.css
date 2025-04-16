@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  flex: 2;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contact__label-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  padding: 0 1rem;
+}
+
+.contact__name,
+.contact__email,
+.contact__comments {
+  padding: .5rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.contact__comments {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 10rem;
+}
+
+.contact__submit {
+  border: 3px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80%;
+  padding: .6rem 0;
+  background-color: var(--color-2);
+  color: white;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.contact__submit:hover {
+  border: 3px solid var(--color-1);
+  color: var(--color-4);
+  box-shadow: 0 .5rem 1rem gray;
+  transition: .3s ease all;
+}
+
+.address {
+  flex: 1;
+  padding: 1rem 1rem;
+  font-size: .9rem;
+  background-color: var(--color-4);
+  border-radius: .5rem;
+}
+
+.address__direction {
+  margin-bottom: .5rem;
+}
+
+.address__map {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+}
